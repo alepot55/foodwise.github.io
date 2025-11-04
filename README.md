@@ -42,7 +42,7 @@ These accolades highlight not only the innovative nature of Foodwise but also th
 
 You can experience a static prototype of the Foodwise mobile application here:
 
-[Foodwise Prototype (Proto.io)](https://alepot55.github.io/freego.github.io/)
+[Foodwise Prototype (Proto.io)](https://alepot55.github.io/foodwise.github.io/)
 
 **(Please note: This is a static prototype created using Proto.io and showcases the user interface and intended functionalities.  Full AI-powered features are conceptual and represent the future vision for Foodwise.)**
 
