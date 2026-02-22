@@ -11,7 +11,7 @@ const tabs = [
 
 export default function BottomNav({ activeTab, onTabChange }) {
   return (
-    <div className="bg-white border-t border-gray-100" style={{ paddingBottom: 20 }}>
+    <div className="bg-white border-t border-gray-100 pb-[env(safe-area-inset-bottom,0px)] md:pb-0" style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 20px)' }}>
       <div className="flex justify-around items-center pt-2">
         {tabs.map((tab, i) => {
           const Icon = tab.icon;

@@ -29,13 +29,12 @@ export default function App() {
   const isShop = !subScreen && activeTab === 3;
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-200">
+    <div className="flex items-center justify-center min-h-screen md:bg-gray-200">
       <div
-        className="relative bg-[#F8F9FA] overflow-hidden flex flex-col"
-        style={{ width: 390, height: 844, borderRadius: 40, boxShadow: '0 25px 60px rgba(0,0,0,0.3)' }}
+        className="relative bg-[#F8F9FA] overflow-hidden flex flex-col w-full h-screen md:w-[390px] md:h-[844px] md:rounded-[40px] md:shadow-[0_25px_60px_rgba(0,0,0,0.3)]"
       >
-        {/* Status bar */}
-        <div className="flex justify-between items-center px-6 pt-3 pb-1 text-xs font-semibold text-[#1A1A2E]">
+        {/* Status bar — solo su desktop (simulatore) */}
+        <div className="hidden md:flex justify-between items-center px-6 pt-3 pb-1 text-xs font-semibold text-[#1A1A2E]">
           <span>9:41</span>
           <div className="flex gap-1 items-center">
             <div className="w-4 h-2.5 border border-[#1A1A2E] rounded-sm relative">
